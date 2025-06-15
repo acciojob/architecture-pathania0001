@@ -1,16 +1,104 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Architecture</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      width: 1100px;
+      margin: 0 auto;
+    }
+
+    .imageContainer {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .imageContainer img {
+      width: 100%;
+      max-height: 400px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    td {
+      vertical-align: top;
+      padding: 15px;
+    }
+
+    td img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .left, .right {
+      width: 200px;
+    }
+
+    .middle {
+      width: 600px;
+    }
+
+    .middle p {
+      font-size: 16px;
+      line-height: 1.5;
+      color: #333;
+    }
+
+    /* Optional: Table border */
+    table, td {
+      border: 1px solid #ccc;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <div class="container">
+    <div class="imageContainer">
+      <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d" alt="Architectural Design">
+    </div>
 
+    <table>
+      <tr>
+        <td class="left">
+          <img src="https://images.unsplash.com/photo-1505843799820-6b67a04b0b8b" alt="Building 1">
+        </td>
+        <td class="middle">
+          <p>
+            Modern architecture embraces simplicity, clean lines, and the integration of space with its environment. It often incorporates innovative materials and sustainable practices to create aesthetically pleasing and functional structures.
+          </p>
+        </td>
+        <td class="right">
+          <img src="https://images.unsplash.com/photo-1533631142075-4f06b92bf177" alt="Building 2">
+        </td>
+      </tr>
+      <tr>
+        <td class="left">
+          <img src="https://images.unsplash.com/photo-1529421308761-c062f4d6b13b" alt="Building 3">
+        </td>
+        <td class="middle">
+          <p>
+            Classical architecture, on the other hand, draws inspiration from ancient Greek and Roman styles. It features columns, arches, and a sense of symmetry that reflects timeless beauty and structural balance.
+          </p>
+        </td>
+        <td class="right">
+          <img src="https://images.unsplash.com/photo-1600585154356-596af9009a4b" alt="Building 4">
+        </td>
+      </tr>
+    </table>
+  </div>
 </body>
-
 </html>
